@@ -1,0 +1,62 @@
+<main class="conatiner">
+  <div class="search-container">
+    <h2>Search</h2>
+    <div class="search-box">
+      <i class="fa fa-search fa-lg"></i>
+      <input class="search" placeholder="Search" />
+    </div>
+  </div>
+
+  <div class="applied-filters">
+    <h4>Applied Filters</h4>
+    <ul class="filters-list">
+      <li>
+        <div>e-Voucher</div>
+        <i class="fa fa-close"></i>
+      </li>
+      <li>
+        <div>Clear Filters</div>
+        <i class="fa fa-close"></i>
+      </li>
+    </ul>
+  </div>
+
+  <div class="product-containers">
+    <app-product-catagories class="categories"></app-product-catagories>
+    <div class="result-container">
+      <div class="search-result">
+        <h2>21 Results found</h2>
+        <button class="btn-sort" (click)="toggleSortPanel()" >Sort</button>
+      </div>
+      <div class="products">
+        <ng-container *ngFor="let product of sortedProducts">
+          <app-product-card [product]="product"></app-product-card>
+        </ng-container>
+      </div>
+    </div>
+  </div>
+ 
+  <div class="sort-panel" [class.open]="isSortPanelOpen">
+    <div class="sort-header">
+      <h3>Sort</h3>
+      <button (click)="toggleSortPanel()" class="close-btn">✕</button>
+    </div>
+    <div class="sort-options">
+      <button 
+        class="btn-sort-option" 
+        [class.active]="sortDirection === 'asc'" 
+        (click)="sortBy('asc')"
+      >
+        A to Z
+      </button>
+      <button 
+        class="btn-sort-option" 
+        [class.active]="sortDirection === 'desc'" 
+        (click)="sortBy('desc')"
+      >
+        Z to A
+      </button>
+    </div>
+    <button class="btn-apply" (click)="applySort()">Apply</button>
+  </div>
+</main>

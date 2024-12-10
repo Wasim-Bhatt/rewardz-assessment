@@ -1,0 +1,74 @@
+[
+  {
+    "pk": 987,
+    "name": "Reward Name",
+    "points": 150,
+    "display_img_url": "",
+    "quantity": 14,
+    "valid_until": "2024-12-31T00:00:00",
+    "low_quanitity": 10
+  },
+  {
+    "pk": 187,
+    "name": "Cafe Coffee Day",
+    "points": 250,
+    "display_img_url": "",
+    "quantity": 20,
+    "valid_until": "2024-12-31T00:00:00",
+    "low_quanitity": 10
+  },
+  {
+    "pk": 987,
+    "name": "Peter England",
+    "points": 150,
+    "display_img_url": "",
+    "quantity": 14,
+    "valid_until": "2024-12-31T00:00:00",
+    "low_quanitity": 10
+  },
+  {
+    "pk": 987,
+    "name": "Raymond",
+    "points": 150,
+    "display_img_url": "",
+    "quantity": 14,
+    "valid_until": "2024-12-31T00:00:00",
+    "low_quanitity": 10
+  },
+  {
+    "pk": 987,
+    "name": "Decathlon",
+    "points": 150,
+    "display_img_url": "",
+    "quantity": 14,
+    "valid_until": "2024-12-31T00:00:00",
+    "low_quanitity": 10
+  },
+  {
+    "pk": 987,
+    "name": "Zara",
+    "points": 150,
+    "display_img_url": "",
+    "quantity": 14,
+    "valid_until": "2024-12-31T00:00:00",
+    "low_quanitity": 10
+  },
+  {
+    "pk": 987,
+    "name": "Gucci",
+    "points": 150,
+    "display_img_url": "",
+    "quantity": 14,
+    "valid_until": "2024-12-31T00:00:00",
+    "low_quanitity": 10
+  },
+  {
+    "pk": 987,
+    "name": "Bata",
+    "points": 150,
+    "display_img_url": "",
+    "quantity": 14,
+    "valid_until": "2024-12-31T00:00:00",
+    "low_quanitity": 10
+  }
+]
